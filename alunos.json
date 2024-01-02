@@ -54,7 +54,7 @@
       "pontuacao": "0.5"
     },
     {
-      "dificuldade": 500,
+      "dificuldade": 551,
       "Pergunta": "Quanto é 21/7?",
       "data": "04-12-2023",
       "pontuacao": "0.5"
@@ -162,7 +162,7 @@
     },
     {
       "dificuldade": 400,
-      "Pergunta": "Quantos temas têm problemas de dificuldade inferior a 1000?",
+      "Pergunta": "Quantos temas têm problemas de dificuldade inferior a 700",
       "data": "14-12-2023",
       "pontuacao": "0.5"
     }
