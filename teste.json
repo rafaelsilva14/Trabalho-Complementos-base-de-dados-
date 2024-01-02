@@ -1,0 +1,193 @@
+[{
+  "_id": {
+    "$oid": "5ed1315124a9579290ef8d86"
+  },
+  "cadeira": {
+    "id": "1",
+    "nome": "Complementos Base Dados"
+  },
+  "tema": "MongoDb",
+  "Problema": [
+    {
+      "graudificuldade": 650,
+      "categoria": "queries",
+      "texto": "Quantos temas não têm problemas de dificuldade superior a 1800.",
+      "resposta1": "5 temas",
+      "resposta2": "15 temas",
+      "resposta3": "25 temas",
+      "resposta4": "35 temas"
+    },
+    {
+      "graudificuldade": 1000,
+      "categoria": "queries",
+      "texto": "Quantos problemas maiores que 1500 existem?",
+      "resposta1": "123 problemas",
+      "resposta2": "234 problemas",
+      "resposta3": "50 problemas",
+      "resposta4": "100 problemas"
+    },
+    {
+      "graudificuldade": 500,
+      "categoria": "queries",
+      "texto": "Quantos alunos existem?",
+      "resposta1": "200 alunos",
+      "resposta2": "100 alunos",
+      "resposta3": "213 alunos",
+      "resposta4": "451 alunos"
+    },
+    {
+      "graudificuldade": 400,
+      "categoria": "queries",
+      "texto": "Quantos temas têm problemas de dificuldade inferior a 1000?",
+      "resposta1": "403 temas",
+      "resposta2": "201 temas",
+      "resposta3": "122 temas",
+      "resposta4": "643 temas"
+    }
+  ],
+  "graudificuldade": 1500
+},{
+  "_id": {
+    "$oid": "5ed134d4772c30182c821db4"
+  },
+  "cadeira": {
+    "id": "2",
+    "nome": "Engenharia de Software"
+  },
+  "tema": "Software Design Concepts",
+  "Problema": [
+    {
+      "graudificuldade": 450,
+      "categoria": "modelos",
+      "texto": " Quantas etapas tem o Modelo waterfall",
+      "resposta1": "5 etapas",
+      "resposta2": "4 etapas",
+      "resposta3": "10 etapas",
+      "resposta4": "20 etapas"
+    },
+    {
+      "graudificuldade": 800,
+      "categoria": "design",
+      "texto": "Quantos niveis de DESIGN existem",
+      "resposta1": "5 niveis",
+      "resposta2": "3 niveis",
+      "resposta3": "50 niveis",
+      "resposta4": "2 niveis"
+    },
+    {
+      "graudificuldade": 100,
+      "categoria": "coesao",
+      "texto": "Quantos tipo de coesão existe?",
+      "resposta1": "7",
+      "resposta2": "1",
+      "resposta3": "2",
+      "resposta4": "4"
+    },
+    {
+      "graudificuldade": 250,
+      "categoria": "acoplamento",
+      "texto": "Quantos niveis de acoplamento existem?",
+      "resposta1": "4 niveis",
+      "resposta2": "2 niveis",
+      "resposta3": "8 niveis",
+      "resposta4": "5 niveis"
+    }
+  ],
+  "graudificuldade": 800
+},{
+  "_id": {
+    "$oid": "5ed7a4632943c74cec3c6d18"
+  },
+  "cadeira": {
+    "id": "3",
+    "nome": "Matemática"
+  },
+  "tema": "Contas",
+  "Problema": [
+    {
+      "graudificuldade": 300,
+      "categoria": "Soma",
+      "texto": "Quanto é 10+10",
+      "resposta1": "20",
+      "resposta2": "15",
+      "resposta3": "25",
+      "resposta4": "35"
+    },
+    {
+      "graudificuldade": 500,
+      "categoria": "Divisão",
+      "texto": "Quanto é 21/7?",
+      "resposta1": "3,333",
+      "resposta2": "5,3",
+      "resposta3": "3",
+      "resposta4": "10"
+    },
+    {
+      "graudificuldade": 1300,
+      "categoria": "Multiplicação",
+      "texto": "Quanto é 26x4?",
+      "resposta1": "125",
+      "resposta2": "104",
+      "resposta3": "213",
+      "resposta4": "451"
+    },
+    {
+      "graudificuldade": 1400,
+      "categoria": "Multiplicação e soma",
+      "texto": "Quanto é 26+5*5?",
+      "resposta1": "54",
+      "resposta2": "53",
+      "resposta3": "51",
+      "resposta4": "61"
+    }
+  ],
+  "graudificuldade": 1100
+},{
+  "_id": {
+    "$oid": "5ed7ae442943c74cec3c6d19"
+  },
+  "cadeira": {
+    "id": "4",
+    "nome": "Análises de Sistemas"
+  },
+  "tema": "Diagramas",
+  "Problema": [
+    {
+      "graudificuldade": 500,
+      "categoria": "Diagrama casos de uso",
+      "texto": "Quantos atores tem o diagrama?",
+      "resposta1": "1",
+      "resposta2": "2",
+      "resposta3": "2",
+      "resposta4": "3"
+    },
+    {
+      "graudificuldade": 500,
+      "categoria": "Diagrama de atividade",
+      "texto": "Quantos atores tem o diagrama?",
+      "resposta1": "3",
+      "resposta2": "5",
+      "resposta3": "4",
+      "resposta4": "1"
+    },
+    {
+      "graudificuldade": 1250,
+      "categoria": "Diagrama de classes",
+      "texto": "Quantos métodos tem esta classe?",
+      "resposta1": "1",
+      "resposta2": "2",
+      "resposta3": "3",
+      "resposta4": "4"
+    },
+    {
+      "graudificuldade": 1700,
+      "categoria": "Diagrama casos de uso",
+      "texto": "Quantas ações visualiza neste diagrama?",
+      "resposta1": "10",
+      "resposta2": "7",
+      "resposta3": "8",
+      "resposta4": "5"
+    }
+  ],
+  "graudificuldade": 1300
+}]

@@ -1,0 +1,154 @@
+1) alunos
+Aggregation
+($project):
+{
+	 _id:0,
+	Cod_Aluno:1,
+	Nome:1,
+	grau_dificuldade:1,
+	"Problemas_feitos.dificuldade":1,
+	"Problemas_feitos.Pergunta":1
+}
+($project):
+{
+	Cod_Aluno:1,
+	Nome:1,
+  	DiferençaParaBaixo :{$subtract:[
+	"$grau_dificuldade",300
+	]},
+	DiferençaParaCima :{$subtract:[
+	"$grau_dificuldade",-300
+	]},
+	"Problemas_feitos.dificuldade":1,
+	"Problemas_feitos.Pergunta":1
+}
+
+($match):
+{
+  "Problemas_feitos.dificuldade": 1,
+  "Problemas_feitos.dificuldade" : {$gt : 1200}
+}
+OU 
+($project):
+{
+ "Problemas_feitos.dificuldade": 1,
+ "Problemas_feitos.dificuldade" : {$gt : ["$Problemas_feitos",DiferençaParaBaixo}
+}
+OU
+($project):
+{
+  "Problemas_feitos.dificuldade": 1,
+  "Problemas_feitos.dificuldade" : {$gt : ["$Problemas_feitos.dificuldade",{$subtract:[
+	"$grau_dificuldade",300]}]}
+}
+
+2) teste (Filter) {"Problema.graudificuldade":{$not:{$gt:1800}}}
+
+3) teste (Filter) {"cadeira.id": "1"}
+
+4) alunos (mudamos a pergunta) (aggregations)
+
+Ordenar os alunos, segundo a competência. Mostrar para cada aluno o número de problemas resolvidos.
+
+($project):
+{
+	_id: 0,
+	"grau_dificuldade": 1,
+	Problemas_feitos: 1
+}
+($sort)
+{
+	grau_dificuldade: 1
+}
+($count)
+{
+	"Problemas_feitos"
+}
+
+5) alunos (mudamos a pergunta) 
+Listar para, cada aluno, os problemas que resolveu e o resultado que teve,
+ordenando a lista pelo nome do aluno, depois pela dificuldade e de seguida pela data.
+
+(Project) {Nome : 1, "Problemas_feitos.Pergunta" : 1, "Problemas_feitos.pontuacao" : 1}
+(Sort) {Nome: 1, "Problemas_feitos.dificuldade":1,"Problemas_feitos.data":1}
+
+6) 
+teste
+Aggregation 
+($project):
+{
+	_id:0,
+	tema:1,
+	"Problema.graudificuldade":1,
+	"Problema.categoria":1,
+	"Problema.texto":1,
+	TemaAbreviado: {$substr: ["$tema",0,3]}
+  }
+}
+
+($sort):
+{
+	tema : 1, 
+ 	graudificuldade: 1
+}
+
+7) Mostrar todos os alunos que acabam com a letra "a"
+alunos
+(Filter) {Nome: {$regex: /a$/ }}
+
+8) Mostrar todos os alunos nascidos no mês de Setembro
+alunos
+Aggregation 
+($project):
+{
+  _id:0,
+  Nome:1,
+  month:{$month: "$data_nasc"}
+
+}
+($match):
+{
+	month: 9
+}
+
+9) Mostrar apenas os alunos que nasceram em 1998 ou depois e que tenham um grau de dificuldade igual ou superior a 800.
+
+Aggregation 
+($project):
+{
+  _id:0,
+  Nome: 1,
+  year:{$year: "$data_nasc"},
+  grau_dificuldade: 1
+}
+($match):
+{
+	 year: {$gte: 1998},
+	grau_dificuldade: {$gte : 800}
+}
+
+10) Mostrar a diferença entre o aluno mais velho e o mais novo.
+Aggregation 
+($project):
+{
+  Nome: 1,
+  ano: {$year: "$data_nasc" }
+}
+($sort):
+{
+  ano: 1,
+}
+($group):
+{
+  _id: "Diferenca",
+  maisNovo: {
+    $max: "$ano"
+  },
+  maisVelho: {
+    $min: "$ano"
+  }
+}
+($project):
+{
+  diferenca: {$subtract: ["$maisNovo", "$maisVelho"]}
+}

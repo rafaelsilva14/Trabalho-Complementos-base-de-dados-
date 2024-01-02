@@ -1,0 +1,335 @@
+[{
+  "_id": {
+    "$oid": "5ed1349e0b1e850b04504a41"
+  },
+  "Nome": "Leonardo Oliveira",
+  "Cod_Aluno": 1,
+  "data_nasc": {
+    "$date": "1998-02-11T00:00:00Z"
+  },
+  "grau_dificuldade": {
+    "$numberDecimal": "1500"
+  },
+  "Problemas_feitos": [
+    {
+      "dificuldade": 650,
+      "Pergunta": "Quantos temas não têm problemas de dificuldade superior a 1800.",
+      "data": "01-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 1000,
+      "Pergunta": "Quantos problemas maiores que 1500 existem?",
+      "data": "02-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 800,
+      "Pergunta": "Quantos niveis de DESIGN existem?",
+      "data": "03-05-2020",
+      "pontuacao": "0.5"
+    }
+  ],
+  "Cadeiras_insc": [
+    "Complementos Base Dados",
+    "Engenharia de Software"
+  ]
+},{
+  "_id": {
+    "$oid": "5ed135720b1e850b04504a42"
+  },
+  "Nome": "Cristiano Ronaldo",
+  "Cod_Aluno": 2,
+  "data_nasc": {
+    "$date": "1985-05-01T23:00:00Z"
+  },
+  "grau_dificuldade": {
+    "$numberDecimal": "1000"
+  },
+  "Problemas_feitos": [
+    {
+      "dificuldade": 300,
+      "Pergunta": "Quanto é 10+10?",
+      "data": "04-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 500,
+      "Pergunta": "Quanto é 21/7?",
+      "data": "05-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 400,
+      "Pergunta": "Quantos temas têm problemas de dificuldade inferior a 1000?",
+      "data": "06-05-2020",
+      "pontuacao": "0.5"
+    }
+  ],
+  "Cadeiras_insc": [
+    "Complementos Base Dados",
+    "Matemática"
+  ]
+},{
+  "_id": {
+    "$oid": "5ed1360d0b1e850b04504a43"
+  },
+  "Nome": "Bruno Moreira",
+  "Cod_Aluno": 3,
+  "data_nasc": {
+    "$date": "1999-09-05T23:00:00Z"
+  },
+  "grau_dificuldade": {
+    "$numberDecimal": "800"
+  },
+  "Problemas_feitos": [
+    {
+      "dificuldade": 300,
+      "Pergunta": "Quanto é 10+10?",
+      "data": "07-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 500,
+      "Pergunta": "Quanto é 21/7?",
+      "data": "08-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 1300,
+      "Pergunta": "Quanto é 26x4?",
+      "data": "09-05-2020",
+      "pontuacao": "0.5"
+    }
+  ],
+  "Cadeiras_insc": [
+    "Matemática"
+  ]
+},{
+  "_id": {
+    "$oid": "5ed137270b1e850b04504a44"
+  },
+  "Nome": "Joao Azevedo",
+  "Cod_Aluno": 4,
+  "data_nasc": {
+    "$date": "1999-09-21T23:00:00Z"
+  },
+  "grau_dificuldade": {
+    "$numberDecimal": "1300"
+  },
+  "Problemas_feitos": [
+    {
+      "dificuldade": 300,
+      "Pergunta": "Quanto é 10+10?",
+      "data": "10-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 500,
+      "Pergunta": "Quanto é 21/7?",
+      "data": "11-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 450,
+      "Pergunta": "Quantas etapas tem o Modelo waterfall?",
+      "data": "12-05-2020",
+      "pontuacao": "0.5"
+    }
+  ],
+  "Cadeiras_insc": [
+    "Matemática",
+    "Engenharia de Software"
+  ]
+},{
+  "_id": {
+    "$oid": "5ed509402a677f41ec5a181f"
+  },
+  "Nome": "Andre Neves",
+  "Cod_Aluno": 5,
+  "data_nasc": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "grau_dificuldade": {
+    "$numberDecimal": "800"
+  },
+  "Problemas_feitos": [
+    {
+      "dificuldade": 300,
+      "Pergunta": "Quanto é 10+10?",
+      "data": "12-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 400,
+      "Pergunta": "Quantos temas têm problemas de dificuldade inferior a 1000?",
+      "data": "14-05-2020",
+      "pontuacao": "0.5"
+    }
+  ],
+  "Cadeiras_insc": [
+    "Complementos Base Dados",
+    "Matemática"
+  ]
+},{
+  "_id": {
+    "$oid": "5ed5099e2a677f41ec5a1820"
+  },
+  "Nome": "Frederico Nicola",
+  "Cod_Aluno": 6,
+  "data_nasc": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "grau_dificuldade": {
+    "$numberDecimal": "1700"
+  },
+  "Problemas_feitos": [
+    {
+      "dificuldade": 450,
+      "Pergunta": "Quantas etapas tem o Modelo waterfall?",
+      "data": "15-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 800,
+      "Pergunta": "Quantos niveis de DESIGN existem?",
+      "data": "16-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 250,
+      "Pergunta": "Quantos niveis de acoplamento existem?",
+      "data": "17-05-2020",
+      "pontuacao": "0.5"
+    }
+  ],
+  "Cadeiras_insc": [
+    "Engenharia de Software"
+  ]
+},{
+  "_id": {
+    "$oid": "5ed50f292a677f41ec5a1821"
+  },
+  "Nome": "Neymar Jr",
+  "Cod_Aluno": 7,
+  "data_nasc": {
+    "$date": "1995-07-02T23:00:00Z"
+  },
+  "grau_dificuldade": {
+    "$numberDecimal": "2000"
+  },
+  "Problemas_feitos": [
+    {
+      "dificuldade": 500,
+      "Pergunta": "Quantos atores tem o diagrama?",
+      "data": "18-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 1700,
+      "Pergunta": "Quantas ações visualiza neste diagrama?",
+      "data": "20-05-2020",
+      "pontuacao": "0.5"
+    }
+  ],
+  "Cadeiras_insc": [
+    "Análises de Sistemas",
+    "Matemática"
+  ]
+},{
+  "_id": {
+    "$oid": "5ed50fa82a677f41ec5a1822"
+  },
+  "Nome": "Andre Neves",
+  "Cod_Aluno": 8,
+  "data_nasc": {
+    "$date": "1970-01-01T00:00:00Z"
+  },
+  "grau_dificuldade": {
+    "$numberDecimal": "1900"
+  },
+  "Problemas_feitos": [
+    {
+      "dificuldade": 400,
+      "Pergunta": "Quantos temas têm problemas de dificuldade inferior a 1000?",
+      "data": "21-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 650,
+      "Pergunta": "Quantos temas não têm problemas de dificuldade superior a 1800.",
+      "data": "22-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 1400,
+      "Pergunta": "Quanto é 26+5*5?",
+      "data": "23-05-2020",
+      "pontuacao": "0.5"
+    }
+  ],
+  "Cadeiras_insc": [
+    "Complementos Base Dados",
+    "Matemática"
+  ]
+},{
+  "_id": {
+    "$oid": "5ed5102f2a677f41ec5a1823"
+  },
+  "Nome": "Daniel Dias",
+  "Cod_Aluno": 9,
+  "data_nasc": {
+    "$date": "1976-04-04T23:00:00Z"
+  },
+  "grau_dificuldade": {
+    "$numberDecimal": "600"
+  },
+  "Problemas_feitos": [
+    {
+      "dificuldade": 1000,
+      "Pergunta": "Quantos problemas maiores que 1500 existem?",
+      "data": "24-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 500,
+      "Pergunta": "Quantos alunos existem?",
+      "data": "25-05-2020",
+      "pontuacao": "0.5"
+    },
+    {
+      "dificuldade": 400,
+      "Pergunta": "Quantos temas têm problemas de dificuldade inferior a 1000?",
+      "data": "26-05-2020",
+      "pontuacao": "0.5"
+    }
+  ],
+  "Cadeiras_insc": [
+    "Complementos Base Dados"
+  ]
+},{
+  "_id": {
+    "$oid": "5ed510602a677f41ec5a1824"
+  },
+  "Nome": "Leonel Messi",
+  "Cod_Aluno": 10,
+  "data_nasc": {
+    "$date": {
+      "$numberLong": "-315536400000"
+    }
+  },
+  "grau_dificuldade": {
+    "$numberDecimal": "1400"
+  },
+  "Problemas_feitos": [
+    {
+      "dificuldade": 300,
+      "Pergunta": "Quanto é 10+10?",
+      "data": "27-05-2020",
+      "pontuacao": "0.5"
+    }
+  ],
+  "Cadeiras_insc": [
+    "Matemática"
+  ]
+}]
