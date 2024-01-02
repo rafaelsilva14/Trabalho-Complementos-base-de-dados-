@@ -39,7 +39,7 @@
     "$oid": "5ed135720b1e850b04504a42"
   },
   "Nome": "Jose Gomes",
-  "Cod_Aluno": 4,
+  "Cod_Aluno": 2,
   "data_nasc": {
     "$date": "1985-05-01T23:00:00Z"
   },
@@ -110,7 +110,7 @@
     "$oid": "5ed137270b1e850b04504a44"
   },
   "Nome": "Joao Azevedo",
-  "Cod_Aluno": 5,
+  "Cod_Aluno": 4,
   "data_nasc": {
     "$date": "1999-09-21T23:00:00Z"
   },
@@ -146,7 +146,7 @@
     "$oid": "5ed509402a677f41ec5a181f"
   },
   "Nome": "Andre Neves",
-  "Cod_Aluno": 2,
+  "Cod_Aluno": 5,
   "data_nasc": {
     "$date": "1970-01-01T00:00:00Z"
   },
@@ -211,7 +211,7 @@
     "$oid": "5ed50f292a677f41ec5a1821"
   },
   "Nome": "Roberto Carlos",
-  "Cod_Aluno": 8,
+  "Cod_Aluno": 7,
   "data_nasc": {
     "$date": "1995-07-02T23:00:00Z"
   },
@@ -241,7 +241,7 @@
     "$oid": "5ed50fa82a677f41ec5a1822"
   },
   "Nome": "Andre Neves",
-  "Cod_Aluno": 7,
+  "Cod_Aluno": 8,
   "data_nasc": {
     "$date": "1970-01-01T00:00:00Z"
   },
@@ -277,7 +277,7 @@
     "$oid": "5ed5102f2a677f41ec5a1823"
   },
   "Nome": "Ruben Dias",
-  "Cod_Aluno": 10,
+  "Cod_Aluno": 9,
   "data_nasc": {
     "$date": "1976-04-04T23:00:00Z"
   },
@@ -312,7 +312,7 @@
     "$oid": "5ed510602a677f41ec5a1824"
   },
   "Nome": "Ricardo Oliveira",
-  "Cod_Aluno": 9,
+  "Cod_Aluno": 10,
   "data_nasc": {
     "$date": {
       "$numberLong": "-315536400000"
