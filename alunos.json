@@ -2,10 +2,10 @@
   "_id": {
     "$oid": "5ed1349e0b1e850b04504a41"
   },
-  "Nome": "Ruben Oliveira",
+  "Nome": "Paulo Futre",
   "Cod_Aluno": 1,
   "data_nasc": {
-    "$date": "1998-02-11T00:00:00Z"
+    "$date": "1938-06-17T00:00:00Z"
   },
   "grau_dificuldade": {
     "$numberDecimal": "1500"
@@ -38,7 +38,7 @@
   "_id": {
     "$oid": "5ed135720b1e850b04504a42"
   },
-  "Nome": "Jose Gomes",
+  "Nome": "Cristina Ferreira",
   "Cod_Aluno": 2,
   "data_nasc": {
     "$date": "1985-05-01T23:00:00Z"
